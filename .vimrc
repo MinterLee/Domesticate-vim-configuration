@@ -29,6 +29,7 @@
 "       --> Gutentags
 "       --> Mark  https://github.com/inkarkat/vim-mark
 "       --> vim-ingo-library
+"       --> AutoComplPop
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -83,6 +84,7 @@ Plug 'skywind3000/vim-preview'
 Plug 'inkarkat/vim-mark'
 Plug 'inkarkat/vim-ingo-library'
 Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'vim-scripts/AutoComplPop'
 
 call plug#end()
 
