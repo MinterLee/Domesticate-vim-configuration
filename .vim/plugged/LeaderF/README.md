@@ -7,7 +7,7 @@ An efficient fuzzy finder that helps to locate files, buffers, mrus, gtags, etc.
  - Support fuzzy and regex searching.
  - Full-featured.
  - [Well-designed fuzzy matching algorithm](https://github.com/Yggdroot/testFuzzyMatch).
- - [Extensible](https://github.com/Yggdroot/LeaderF-marks).
+ - [Extensible](https://github.com/Yggdroot/LeaderF/wiki/Extensions).
 
 Changelog
 ---------
@@ -19,6 +19,11 @@ Wiki
 
 [Wiki](https://github.com/Yggdroot/LeaderF/wiki).
 
+Extensions
+----------
+
+A list of community extensions can be found in the [Extensions](https://github.com/Yggdroot/LeaderF/wiki/Extensions) wiki.
+
 Screenshots
 -----------
 
@@ -29,7 +34,7 @@ Screenshots
 Requirements
 ------------
 
- - vim7.3 or higher. Only support vim7.4.330 or higher after [v1.01](https://github.com/Yggdroot/LeaderF/releases/tag/v1.01).
+ - vim7.3 or higher. Only support 7.4.1126+ after [v1.01](https://github.com/Yggdroot/LeaderF/releases/tag/v1.01).
  - Python2.7+ or Python3.1+.
  - To use the popup mode, neovim 0.42+ or vim 8.1.1615+ are required.
 
@@ -103,6 +108,8 @@ optional arguments:
   --popup-width <POPUP_WIDTH>
                         specifies the width of popup window, only available in popup mode.
   --no-sort             do not sort the result.
+  --case-insensitive    fuzzy search case insensitively.
+  --auto-preview        open preview window automatically.
 
 subcommands:
 
